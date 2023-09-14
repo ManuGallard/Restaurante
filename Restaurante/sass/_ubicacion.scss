@@ -1,0 +1,43 @@
+.ubicacion {
+    background-color: #fff;
+    padding: 60px 0;
+
+    &__titulo {
+        text-align: center;
+        font-size: 4rem;
+        line-height: 4rem;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+
+    .contenedor {
+        display: flex;
+    }
+
+    &__direccion {
+        width: 50%;
+
+        &--calle {
+            margin-bottom: 15px;
+        }
+
+        
+    }
+
+    &__horarios {
+        width: 50%;
+        text-align: center;
+
+        h4 {
+            margin-bottom: 20px;
+        }
+
+        &--contenedor {
+            display: flex;
+        }
+
+        &--entre-semana, &--fin-semana {
+            width: 50%;
+        }
+    }
+}

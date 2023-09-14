@@ -1,0 +1,118 @@
+@media (max-width: 800px) {
+    header {
+        .contenedor {
+            position: static;
+            height: auto;
+
+            nav {
+                text-align: center;
+                margin-bottom: 150px;
+
+                a {
+                    margin: 10px 15px;
+                }
+            }
+        }
+
+        .header__textos {
+            position: static;
+            margin: 0 0 100px 0;
+
+            &--titulo {
+                font-size: 3rem;
+            }
+
+            &--subtitulo {
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    .acerca-de {
+
+        .contenedor {
+
+            article {
+                position: relative;
+                width: 100%;
+                top: -50px;
+                transform: translate(0px, 0);
+            }
+        }
+
+        &__foto {
+            width: 100%;
+            position: relative;
+        }
+    }
+
+    .menu {
+        padding-top: 300px;
+
+        &__contenedor2 {
+            flex-direction: column;
+        }
+    }
+
+    .mapa {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+
+    header {
+        .contenedor {
+            nav {
+                text-align: left;
+                display: flex;
+                justify-content: space-around;
+                a {
+                    margin: 0;
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+
+    .acerca-de {
+        .contenedor {
+
+            article {
+
+                h3 {
+                    font-size: 3.4rem;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .menu {
+        &__platillo {
+    
+            &--nombre, &--precio {
+                font-size: 1.6rem;
+                line-height: 16px;
+            }
+    
+        }
+    }
+
+    .ubicacion {
+
+        .contenedor {
+            flex-direction: column;
+        }
+
+        &__direccion {
+            margin-bottom: 15px;
+        }
+
+        &__direccion, &__horarios {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
